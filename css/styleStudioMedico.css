@@ -1,0 +1,199 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+#backgroundGenerale{
+    background-color: #80d480;
+    width: 100%;
+    height: 100%;
+}
+
+#header{
+    background-color: white;
+    width: 100%;
+    height: 20%;
+    border: solid;
+    border-color:white;
+    border-bottom-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.immagineDiTesta{
+    height: auto;
+    width: 30%;
+}
+
+#navigationBar{
+    background-color: white;
+    height: 76%;
+    width: 13%;
+    border: solid;
+    border-color: white;
+    border-right-color: red;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+#contenitoreTesto{
+    background-color: #ff0000b3;
+    height: 96%;
+    width: 88%;
+    display: flex;
+    justify-content: center;
+}
+
+#TestoNB{
+    font-size: larger;
+    font-family: sans-serif;
+    margin-top:10%;
+}
+
+#footer{
+    background-color: black;
+    height: 4%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+.immaginiFooter{
+    width: 2%;
+    height: 100%;
+}
+
+#article{
+    position: absolute;
+    background-color: white;
+    height: 76.6%;
+    width: 89%;
+    left: 13.3%;
+    bottom: 2.8%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#testoArticle{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#divImmagini{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#midArticle{
+
+    background-color: #575757;
+    height: 80%;
+    width: 100%;
+    left: 13.3%;
+    bottom: 2.8%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#midDiv{
+    border:solid;
+    border-color: #747373;
+    background-color: #747373;
+    height: 60%;
+    width: 40%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#midDiv2{
+    border:solid;
+    border-color: #3f3e3e;
+    background-color: white;
+    height: 99%;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.personImage{
+    height: 100%;
+    width: 100%;
+}
+
+#accountDiv{
+    border: solid;
+    border-color: red;
+    height: 27%;
+    width: 11%;
+    margin-left: 1%;
+}
+#scrittePaginaAccount{
+    font-family: sans-serif;
+    font-size: 150%;
+    margin-left: 1%;
+    margin-top: 0.5%;
+}
+
+#article2{
+    position: absolute;
+    background-color: white;
+    height: 76.6%;
+    width: 89%;
+    left: 13.3%;
+    bottom: 2.8%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#midDiv3{
+    border:solid;
+    border-color: #747373;
+    background-color: #747373;
+    height: 73%;
+    width: 40%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#midDiv4{
+    border:solid;
+    border-color: #3f3e3e;
+    background-color: white;
+    height: 99%;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#midDiv5{
+    border:solid;
+    border-color: #3f3e3e;
+    background-color: white;
+    height: 99%;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#scrittePaginaAccount{
+    font-family: sans-serif;
+    margin-left: 1%;
+    margin-top: 0.5%;
+}

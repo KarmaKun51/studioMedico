@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area prenotazioni</title>
+    <link rel="stylesheet" href="../css/styleStudioMedico.css">
+</head>
+<body>
+    <div id="backgroundGenerale">
+        <div id="header">
+            <img src="../images/mighty_med.png" class="immagineDiTesta">
+        </div>
+        <div id="navigationBar">
+            <div id="contenitoreTesto">
+                <div id="TestoNB">
+                    <a href="..\index.html">Home</a><br><br>
+                    <a href="areaPersonale.html">Area Personale</a><br><br>
+                    <a href="visualizzaPrenotazioni.html">Visualizza prenotazioni</a><br><br>
+                    <a href="areaLoginMedici.html">Area Login per medici</a><br><br>
+                    <a href="logout.html">Logout</a><br><br>
+                </div>
+            </div>
+        </div>
+        <div id="article2">
+            <div id="midDiv3">
+                <div id="midDiv5">
+                    <div id="scrittePaginaAccount"><h2>Prenota qui la tua visita</h2>
+                        <form action="visite.php" method="post">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome"><br><br>
+
+                            <label for="cognome">Cognome:</label>
+                            <input type="text" id="cognome" name="cognome"><br><br>
+
+                            <label for="telefono">Numero telefonico:</label>
+                            <input type="tel" id="telefono" name="telefono"><br><br>
+
+                            <label for="data">Data:</label>
+                            <input type="date" id="data" name="data"><br><br>
+
+                            <label for="reparto">Reparto:</label>
+                            <select id="reparto" name="reparto">
+                                <option value="cardiologia">Cardiologia</option>
+                                <option value="ginecologia">Ginecologia</option>
+                                <option value="neurologia">Neurologia</option>
+                                <option value="dermatologia">Dermatologia</option>
+                                <option value="allergologia">Allergologia</option>
+                            </select><br><br>
+                            <input type="submit" value="Prenota">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            Contatti:  <img src="../images/WhatsApp_icon.png" class="immaginiFooter"> 338-742-1048 <img src="../images/Instagram_logo_2016.svg.png" class="immaginiFooter"> mighty_med
+        </div>
+    </div>
+</body>
+</html>
